@@ -39,9 +39,11 @@ public class UploadCategoryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
+        binding = ActivityUploadCategoryBinding.inflate(getLayoutInflater());
+        if (binding == null) {
+            throw new NullPointerException("Binding is null. Ensure ActivityUploadCategoryBinding is correctly generated.");
+        }
         setContentView(binding.getRoot());
-
 
         database = FirebaseDatabase.getInstance();
         storage = FirebaseStorage.getInstance();
