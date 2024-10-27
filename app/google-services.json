@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "758121711885",
+    "project_id": "janero-f3ec5",
+    "storage_bucket": "janero-f3ec5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758121711885:android:c96bfec29f706784ff8844",
+        "android_client_info": {
+          "package_name": "com.example.readmasteradmin.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNKqyxPLzri-66S0SlObES1oyZ4IkevLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
