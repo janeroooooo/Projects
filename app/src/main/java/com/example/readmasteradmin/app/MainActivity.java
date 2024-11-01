@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 
-import com.example.readmasteradmin.Models.CategoryModels;
+import com.example.readmasteradmin.app.Models.CategoryModels;
 import com.example.readmasteradmin.app.Adapters.CategoryAdapter;
 import com.example.readmasteradmin.app.databinding.ActivityMainBinding;
 import com.google.firebase.database.DataSnapshot;

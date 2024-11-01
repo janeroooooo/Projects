@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.readmasteradmin.Models.CategoryModels;
+import com.example.readmasteradmin.app.Models.CategoryModels;
 import com.example.readmasteradmin.app.R;
 import com.example.readmasteradmin.app.databinding.RvCategoryBinding;
 import com.squareup.picasso.Picasso;

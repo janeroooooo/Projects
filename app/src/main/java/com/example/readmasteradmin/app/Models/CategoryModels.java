@@ -1,4 +1,4 @@
-package com.example.readmasteradmin.Models;
+package com.example.readmasteradmin.app.Models;
 
 public class CategoryModels {
 
